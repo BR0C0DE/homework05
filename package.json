@@ -1,0 +1,23 @@
+{
+  "name": "homework05",
+  "version": "1.0.0",
+  "description": "Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BR0C0DE/homework05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BR0C0DE/homework05/issues"
+  },
+  "homepage": "https://github.com/BR0C0DE/homework05#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
