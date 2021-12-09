@@ -8,11 +8,36 @@ body {
 
 }
 
-h1 {
+.heading {
   color: whitesmoke;
   background-color: lightslategray;
-  margin: auto;
+  margin: 2%;
   text-align: center;
   border-radius: 10px;
+  border-top: 5px;
+  border-bottom: 5px;
+}
 
+
+.text {
+
+  border-bottom: 2px slategrey dotted;
+  border-color: slategrey;
+  background-color: lightgoldenrodyellow;
+}
+
+@mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Usage
+.sauce {
+  color: whitesmoke;
+  background-color: lightslategray;
+  text-align: center;
+  border-radius: 10px;
 }
