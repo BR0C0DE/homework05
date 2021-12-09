@@ -1,3 +1,18 @@
 .hidden {
   display: none
 }
+
+body {
+  background-color: lightblue;
+  ;
+
+}
+
+h1 {
+  color: whitesmoke;
+  background-color: lightslategray;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+
+}
