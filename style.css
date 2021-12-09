@@ -18,6 +18,12 @@ body {
   border-bottom: 5px;
 }
 
+.col-4 {
+  color: whitesmoke;
+  background-color: lightslategray;
+  text-align: center;
+  border-radius: 10px;
+}
 
 .text {
 
@@ -26,18 +32,3 @@ body {
   background-color: lightgoldenrodyellow;
 }
 
-@mixin make-container($padding-x: $container-padding-x) {
-  width: 100%;
-  padding-right: $padding-x;
-  padding-left: $padding-x;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-// Usage
-.sauce {
-  color: whitesmoke;
-  background-color: lightslategray;
-  text-align: center;
-  border-radius: 10px;
-}
