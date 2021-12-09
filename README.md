@@ -48,26 +48,17 @@ You are required to submit the following for review:
 
 ### Name
 
-Weekly Planner
+Day Planner
 
 ### Description
 
-An interactive weekly day planning application.
+A simple and interactive day planning application.
 
 ### Link to Deployed Repo
 
+https://br0c0de.github.io/homework05/
 
+https://github.com/BR0C0DE/homework05
 
 ### Visuals
 
-Moment objects have several internal properties that are prefixed with _.
-
-The most commonly viewed internal property is the _d property that holds the JavaScript Date that Moment wrappers.
-Frequently, developers are confused by console output of the value of _d.
-Moment uses a technique called epoch shifting that causes this property to sometimes differ from the actual date value that the Moment reflects.
-In particular if Moment TimeZone is in use, this property will almost never be the same as the actual value that Moment will output from its public .format() function.
-As such, the values of _d and any other properties prefixed with _ should not be used for any purpose.
-
-To print out the value of a Moment, use .format(), .toString() or .toISOString().
-
-To retrieve a native Date object from Moment, use .toDate(). This function returns a properly shifted date for interaction with third party APIs.
